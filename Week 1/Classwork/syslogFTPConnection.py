@@ -8,7 +8,7 @@ def ftp_connect(filename, searchTerms):
     # Call syslogCheck and return results
     is_found = syslogCheck._syslog(filename,searchTerms)
 
-    # found list
+    # found list.
     found = []
 
     # Loop through results

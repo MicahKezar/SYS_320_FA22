@@ -11,7 +11,7 @@ def ssh_fail(filename, searchTerms):
     # found list
     found = []
 
-    # Loop through results
+    # Loop through results.
     for eachFound in is_found:
 
         #print(eachFound)

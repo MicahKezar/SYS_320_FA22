@@ -14,7 +14,7 @@ def _syslog(filename,listOfKeywords):
     # Loop through the list returned. 
     for line in contents:
         
-        # Loops through the keywords
+        # Loops through the keywords.
         for eachKeyword in listOfKeywords:
 
             # if line contains keyword
