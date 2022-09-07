@@ -6,7 +6,7 @@ importlib.reload(logCheck)
 def apache_events(filename, service, term):
 
     # Call syslogCheck and return results
-    is_found = logCheck._syslog(filename, service, term)
+    is_found = logCheck._logs(filename, service, term)
 
     # found list
     found = []
@@ -19,7 +19,7 @@ def apache_events(filename, service, term):
         sp_results = eachFound.split(" ")
 
         # Append the split values to the found list
-        found.append(sp_results[8])
+        found.append(sp_results[3] + " " + sp_results[0] + " " + sp_results[1])
     
     # Remove duplicates by using set
     # and convert list to dictionary
@@ -27,6 +27,6 @@ def apache_events(filename, service, term):
     hosts = set(found)
 
     # Print results
-    for eachHost in hosts:
+    for eachValue in hosts:
 
-        print(eachHost)
+        print(eachValue)
