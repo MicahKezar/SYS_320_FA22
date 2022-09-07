@@ -1,0 +1,5 @@
+...
+apache:
+  php = "[GET|POST].*/wordpress/wp-login.php.*,[GET|POST].*/wordpress/wp-login.php.*"
+  cgi = "[GET|POST].*/cgi-bin/test-cgi,[GET|POST].*/cgi-bin/htsearch.*"
+
