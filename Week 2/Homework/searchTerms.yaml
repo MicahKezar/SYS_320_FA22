@@ -1,4 +1,4 @@
 ---
 proxy:
-  qqOpen: "QQ.*.exe.*open"
+  qqOpen: "QQ.*.exe.*open.*"
   qqClose: "QQ.*.exe.*bytes sent"
