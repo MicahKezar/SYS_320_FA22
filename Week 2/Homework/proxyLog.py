@@ -11,7 +11,7 @@ def proxy_events(filename, service, term):
 
     # found list
     found = []
-
+    
     # Loop through results.
     for eachFound in is_found:
 

@@ -53,4 +53,3 @@ def _logs(filename,service, term):
 
     return results
     # print(x)
-

@@ -2,3 +2,4 @@
 proxy:
   qqOpen: "QQ.*.exe.*open.*"
   qqClose: "QQ.*.exe.*bytes sent"
+  
