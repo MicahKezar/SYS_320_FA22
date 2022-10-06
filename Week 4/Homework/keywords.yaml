@@ -1,0 +1,18 @@
+---
+shell:
+  cmd: 'cmd.exe'
+  powershell: 'powershell'
+  webshell: 'c99.php'
+
+sql:
+  phpmyadmin: '/phpmyadmin'
+  mysql: 'mysql'
+  
+directory_traversal:
+  passwd: '/etc/passwd'
+  directory_forward: '\.\.'
+
+content_management:
+  joomla: 'joomla'
+  wordpress: 'wordpress'
+  xml: 'xmlrpc'
