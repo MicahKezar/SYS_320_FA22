@@ -1,0 +1,67 @@
+### BEGIN ping 127.0.0.1 ###
+
+
+@@@Pinging 127.0.0.1 with 32 bytes of data:
+@@@Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+@@@Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+@@@Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+@@@Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+@@@
+@@@Ping statistics for 127.0.0.1:
+@@@    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+@@@Approximate round trip times in milli-seconds:
+@@@    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+
+### END ping 127.0.0.1 ###### BEGIN hostname ###
+
+LAPTOP-4TRQVRBB
+
+
+### END hostname ###### BEGIN ipconfig ###
+
+
+@@@Windows IP Configuration
+@@@
+@@@
+@@@Wireless LAN adapter Local Area Connection* 3:
+@@@
+@@@   Media State . . . . . . . . . . . : Media disconnected
+@@@   Connection-specific DNS Suffix  . : 
+@@@
+@@@Wireless LAN adapter Local Area Connection* 12:
+@@@
+@@@   Media State . . . . . . . . . . . : Media disconnected
+@@@   Connection-specific DNS Suffix  . : 
+@@@
+@@@Ethernet adapter VMware Network Adapter VMnet1:
+@@@
+@@@   Connection-specific DNS Suffix  . : 
+@@@   Link-local IPv6 Address . . . . . : fe80::2063:3ddf:ac49:5c47%13
+@@@   IPv4 Address. . . . . . . . . . . : 192.168.153.1
+@@@   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+@@@   Default Gateway . . . . . . . . . : 
+@@@
+@@@Ethernet adapter VMware Network Adapter VMnet8:
+@@@
+@@@   Connection-specific DNS Suffix  . : 
+@@@   Link-local IPv6 Address . . . . . : fe80::6154:ffcd:7cd5:c792%17
+@@@   IPv4 Address. . . . . . . . . . . : 192.168.109.1
+@@@   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+@@@   Default Gateway . . . . . . . . . : 
+@@@
+@@@Wireless LAN adapter Wi-Fi:
+@@@
+@@@   Connection-specific DNS Suffix  . : 
+@@@   Link-local IPv6 Address . . . . . : fe80::8158:bb90:f5f4:3fa8%21
+@@@   IPv4 Address. . . . . . . . . . . : 10.0.1.187
+@@@   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+@@@   Default Gateway . . . . . . . . . : 10.0.1.254
+@@@
+@@@Ethernet adapter Bluetooth Network Connection:
+@@@
+@@@   Media State . . . . . . . . . . . : Media disconnected
+@@@   Connection-specific DNS Suffix  . : 
+
+
+### END ipconfig ###
