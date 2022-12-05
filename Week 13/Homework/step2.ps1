@@ -157,7 +157,7 @@ foreach ($f in $fileList) {
 
 # Create .bat file with code to delete step2.ps1
 New-Item -Path '.\Week 13\Homework\update.bat'
-Set-Content -Path '.\Week 13\Homework\update.bat' "del C:\Users\micah\Documents\SYS320\SYS_320_FA22\Week 13\Homework\step2test.ps1"
+Set-Content -Path '.\Week 13\Homework\update.bat' "del C:\Users\micah\Documents\SYS320\SYS_320_FA22\Week 13\Homework\step2.ps1"
 
 # Run the newly created .bat
 Start-Process -Path "C:\Users\micah\Documents\SYS320\SYS_320_FA22\Week 13\Homework\update.bat" -Wait
