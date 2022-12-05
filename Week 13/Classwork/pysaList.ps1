@@ -6,7 +6,7 @@
 #-Path files.csv
 
 # Import the CSV
-$fileList = Import-Csv -Path .\files.csv #-header FullName
+$fileList = Import-Csv -Path '.\Week 13\Classwork\files.csv' #-header FullName
 
 
 # Loop for results
