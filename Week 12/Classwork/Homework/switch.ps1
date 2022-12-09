@@ -74,7 +74,7 @@ switch ($var) {
                 return $true;
                     
             }
-            
+
             # if the function returned true:   
             if (scpToDevice == $true) {
                 Write-Output "`n The File has successfully been sent! `n"
@@ -82,3 +82,18 @@ switch ($var) {
         
     }
 }
+
+<# 
+
+Reflection:
+
+What I liked most about the assignment:
+
+I liked the utilization of switches instead of having to use If/Else statements. I never knew switch statements existed, and I think
+they should in some form be in every programming language.
+
+What did I like the least:
+
+I found it a little challenging to get the correct iptable or firewall statement with each IP address to be neatly saved in a file. 
+
+#>
